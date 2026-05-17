@@ -1,5 +1,5 @@
 ---
-title: 多处理器编程
+title: 并发1
 published: 2026-05-12
 tags: [ 操作系统, 多线程 ]
 category: 操作系统
