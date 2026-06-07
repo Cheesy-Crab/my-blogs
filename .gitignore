@@ -37,3 +37,6 @@ Firefly-docs/
 cache/
 package/
 .obsidian/
+
+# code samples
+content/code/*
