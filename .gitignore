@@ -39,4 +39,4 @@ package/
 .obsidian/
 
 # code samples
-content/code/*
+src/content/code/*
