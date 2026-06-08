@@ -54,3 +54,19 @@ void consume() {
 
 ![print_fish](./images/cc_duoxiancheng3-2.png)
 状态机
+
+## **信号量**
+```C
+void P(sem_t *sem) {
+    atomic {
+        wait_until(sem->count > 0) {
+            sem->count--;
+        }
+    }
+}
+
+void V(sem_t *sem) {
+    atomic {
+        sem->count++;
+    }
+}
